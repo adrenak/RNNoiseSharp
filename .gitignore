@@ -1,11 +1,19 @@
 # Autosave files
 *~
 
-# build
+# Personal IDE/Editor configs
+.vscode/
+.claude/
+
+# build outputs
 [Oo]bj/
-[Bb]in/
 packages/
 TestResults/
+
+# Build system temporary files (DO NOT COMMIT)
+RNNoiseLib/Build/intermediate/
+
+# NOTE: Artefacts/PrecompiledLibs/ IS TRACKED - those are distribution binaries
 
 # globs
 Makefile.in

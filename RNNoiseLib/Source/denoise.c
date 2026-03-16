@@ -38,6 +38,10 @@
 #include "rnnoise.h"
 #include "pitch.h"
 #include "arch.h"
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 #include "rnn.h"
 #include "rnn_data.h"
 
